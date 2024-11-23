@@ -21,3 +21,35 @@ body {
     color: #333;
     font-size: 18px;
   }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+    background-color: #f9f9f9; /* 可根据需要调整背景色 */
+  }
+  
+  .container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    gap: 20px; /* 调整两栏之间的间距 */
+  }
+  
+  .left-column {
+    flex: 1; /* 左侧占用剩余空间 */
+    padding: 1em;
+  }
+  
+  .right-column {
+    flex: 1; /* 右侧占用剩余空间 */
+    text-align: center; /* 照片居中对齐 */
+  }
+  
+  .profile-photo {
+    max-width: 100%; /* 照片宽度自适应 */
+    height: auto;
+    border-radius: 10px; /* 圆角效果，可选 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+  }
