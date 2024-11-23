@@ -6,8 +6,8 @@ body {
   }
   
   header {
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* 渐变粉色到淡紫色 */
-    color: white;
+    background-color: #FFD700; /* 金黄色 */
+    color: #333333; /* 深灰色字体 */
     padding: 1em 0;
   }
   
